@@ -1,0 +1,35 @@
+/* Define a cor de fundo da página */
+body {
+    background-color: #f0f8ff; /* Cor de fundo mais clara */
+}
+
+/* Define a cor de fundo da barra de navegação */
+.navbar {
+    background-color: #28a745 !important; /* Verde do Bootstrap */
+}
+
+/* Define a cor de fundo e a cor do texto do jumbotron */
+.jumbotron {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Define o estilo do rodapé */
+.footer-bar {
+    background-color: #343a40; /* Fundo escuro para o rodapé */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Define a cor e o estilo dos links no rodapé */
+.footer-bar a {
+    color: #28a745; /* Cor verde para links no rodapé */
+    text-decoration: none; /* Remove a sublinha dos links */
+    font-weight: bold; /* Deixa o texto dos links em negrito */
+}
+
+/* Altera a cor dos links no rodapé quando o cursor está sobre eles */
+.footer-bar a:hover {
+    color: #218838; /* Altera a cor do link no hover */
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidroponia</title>
+    <!-- Inclui o CSS do Bootstrap para estilização -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Inclui um arquivo CSS personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho com barra de navegação -->
+    <header class="bg-success text-white">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <a class="navbar-brand" href="#">Hidroponia</a>
+            <!-- Botão para colapsar a barra de navegação em telas menores -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links de navegação -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="sobre-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="contato-link">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main class="container mt-4">
+        <!-- Barra de título com logo -->
+        <div class="title-bar bg-success text-white text-center p-4 position-relative">
+            <h1 class="display-4">Hidroponia</h1>
+            <!-- Imagem do logo com estilização -->
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyMYA1Ni0ykih4M7zjyl2jWa7kv3MrvJ9oWg&s" alt="Hidroponia" class="logo position-absolute" style="top: 20px; right: 20px; width: 350px; height: auto; border: 8px solid #fff; box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);">
+        </div>
+
+        <!-- Seção sobre hidroponia -->
+        <section class="mt-4">
+            <h2>Sobre a Hidroponia</h2>
+            <p>A hidroponia é uma técnica de cultivo de plantas que não utiliza o solo, substituindo-o por uma solução nutritiva rica em minerais dissolvidos em água. Essa prática inovadora está revolucionando a agricultura, oferecendo uma série de vantagens em comparação com os métodos tradicionais.</p>
+        </section>
+
+        <!-- Seção de benefícios da hidroponia -->
+        <section class="mt-4">
+            <h2>Benefícios da Hidroponia</h2>
+            <h3>Uso Eficiente da Água:</h3>
+            <p>Utiliza menos água do que a agricultura tradicional, pois a água é recirculada.</p>
+            <h3>Maior Controle sobre Nutrientes:</h3>
+            <p>Permite ajuste preciso dos nutrientes que as plantas recebem, promovendo crescimento mais rápido e saudável.</p>
+            <h3>Cultivo em Espaços Pequenos:</h3>
+            <p>Ideal para áreas urbanas e espaços confinados.</p>
+            <h3>Redução de Pesticidas:</h3>
+            <p>Ambientes controlados reduzem a necessidade de pesticidas.</p>
+            <h3>Menor Dependência do Clima:</h3>
+            <p>Pode ser feita em ambientes internos, controlando luz, temperatura e umidade. As condições climáticas como temperatura, umidade e luz podem ser controladas em ambientes fechados, como estufas. Isso permite a produção durante todo o ano, independentemente das condições externas.</p>
+        </section>
+
+        <!-- Seção de aplicações e perspectivas -->
+        <section class="mt-4 mb-5">
+            <h2>Aplicações e Perspectivas</h2>
+            <p>A hidroponia está sendo cada vez mais adotada para a produção de vegetais de alta qualidade, ervas e até algumas frutas. Grandes operações comerciais utilizam este método para produzir alimentos em áreas urbanas e desérticas, onde a agricultura tradicional pode ser impraticável. No futuro, a hidroponia pode desempenhar um papel vital na segurança alimentar global, especialmente em regiões com recursos hídricos limitados ou onde o solo é inadequado para a agricultura convencional.</p>
+        </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer class="footer-bar bg-success text-white text-center py-3">
+        <p>&copy; 2024 Hidroponia. Todos os direitos reservados.</p>
+        <a href="https://agro.estadao.com.br/summit-agro/hidroponia-o-que-e-preciso-saber-para-introduzir-esse-sistema" class="saiba-mais text-white" id="saiba-mais-link">Saiba mais</a>
+    </footer>
+
+    <!-- Modal de Sobre -->
+    <div class="modal fade" id="sobre-modal" tabindex="-1" role="dialog" aria-labelledby="modalSobreTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title" id="modalSobreTitle">Quem Somos</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Bem-vindo ao nosso grupo de Hidroponia da Setrem! Somos uma equipe dedicada de estudantes apaixonados pelo cultivo sustentável e inovador de plantas sem solo. Através de pesquisas e práticas avançadas, buscamos soluções eficientes para a agricultura urbana e rural. Junte-se a nós para explorar como a hidroponia pode transformar a forma como produzimos alimentos, promovendo sustentabilidade e inovação. Fique por dentro das nossas atividades, projetos e eventos para aprender mais e participar dessa revolução verde.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Contato -->
+    <div class="modal fade" id="contato-modal" tabindex="-1" role="dialog" aria-labelledby="modalContatoTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title" id="modalContatoTitle">Contato</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Email: cristielcancian991@gmail.com.br</p>
+                    <p>Localidade: Sociedade Educacional Três de Maio – Setrem<br>
+                    Avenida Santa Rosa, 2405<br>
+                    Bairro Pastor Gustav Hüedepohl<br>
+                    Três de Maio/RS | CEP: 98910-000<br>
+                    Fone: (55) 3535-4600</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inclui JavaScript do Bootstrap e um script personalizado -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
